@@ -37,41 +37,43 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-# Next.js プロジェクト (日本語)
+# Next.js（ネクストジェイエス）プロジェクトへようこそ！
 
-これは [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) で作成された [Next.js](https://nextjs.org/) プロジェクトです。
+このプロジェクトは、ウェブサイトやアプリを作るための道具箱、「Next.js」を使って作られているよ。
 
-## 🚀 はじめに
+## 🚀 さあ、はじめよう！
 
-まず、以下のコマンドで開発サーバーを起動します:
+まず、パソコンに「このプロジェクトを動かしてね」とお願いするおまじない（コマンド）を唱えよう。
 
 ```bash
 npm run dev
-# または
+# もしくは
 yarn dev
-# または
+# もしくは
 pnpm dev
-# または
+# もしくは
 bun dev
 ```
 
-ブラウザで [http://localhost:3000](http://localhost:3000) を開くと、結果が表示されます。
+このおまじないを唱えると、君のパソコンの中でウェブサイトが動き出すんだ。
+[http://localhost:3000](http://localhost:3000) にアクセスすると、そのウェブサイトが見られるよ。
 
-ページの編集を始めるには、`app/page.tsx` を修正してください。ファイルを編集すると、ページは自動的に更新されます。
+ウェブサイトの見た目を変えたいときは、`app/page.tsx` というファイルを探して、中身を書き換えてみてね。
+ファイルを保存すると、すぐにウェブサイトに反映されて、どう変わったか見ることができるんだ。すごいよね！
 
-このプロジェクトでは、カスタムGoogleフォントである「Inter」を自動的に最適化して読み込むために [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) を使用しています。
+このプロジェクトでは、「Inter」という特別な文字（フォント）を使っているよ。`next/font` という仕組みが、その文字をきれいに表示してくれているんだ。
 
-## 📚 さらに詳しく
+## 📚 もっと知りたいきみへ
 
-Next.jsについてさらに学ぶには、以下のリソースをご覧ください:
+Next.jsについてもっと知りたくなったら、ここを見てみよう！
 
--   [Next.js ドキュメント](https://nextjs.org/docs) - Next.jsの機能とAPIについて解説しています。
--   [Learn Next.js](https://nextjs.org/learn) - インタラクティブなNext.jsのチュートリアルです。
+-   [Next.jsのせつめいしょ](https://nextjs.org/docs) - Next.jsのいろんな機能や使い方について書いてあるよ。
+-   [Next.jsを学ぼう](https://nextjs.org/learn) - ゲームみたいに楽しくNext.jsを学べるチュートリアルだよ。
 
-[Next.jsのGitHubリポジトリ](https://github.com/vercel/next.js/)もぜひご覧ください。フィードバックやコントリビューションをお待ちしています！
+[Next.jsのGitHubリポジトリ](https://github.com/vercel/next.js/)では、世界中の人たちがこのプロジェクトをより良くするために協力しているんだ。君もアイデアがあったらぜひ参加してみてね！
 
-## Vercelへのデプロイ
+## Vercel（ヴァーセル）で公開しよう！
 
-Next.jsアプリをデプロイする最も簡単な方法は、Next.jsの制作者であるVercelが提供する[Vercelプラットフォーム](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)を利用することです。
+君が作ったウェブサイトを、世界中の人に見てもらえるように公開（デプロイ）する一番かんたんな方法は、「Vercel」というサービスを使うことだよ。
 
-詳細については、[Next.jsのデプロイに関するドキュメント](https://nextjs.org/docs/deployment)をご確認ください。
+もっと詳しいやり方は、[Next.jsのデプロイについてのせつめい](https://nextjs.org/docs/deployment)を読んでみてね。
